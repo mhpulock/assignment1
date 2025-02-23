@@ -34,6 +34,7 @@
   border-radius: 5px;
   background-color: white;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .banner {
@@ -81,6 +82,7 @@
   color: white;
   font-weight: 600;
   border: none;
+  cursor: pointer;
 }
 
 .main-container {
@@ -125,4 +127,31 @@ main section {
 .webdev-explain-description {
   opacity: 0.7;
   margin-bottom: 20px;
+}
+
+.video-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video-description {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 0 100px;
+  opacity: 0.7;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.video-item {
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid rgba(160, 159, 159, 0.295);
+}
+
+iframe {
+  border-radius: 10px;
 }
