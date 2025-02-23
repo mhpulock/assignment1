@@ -3,6 +3,9 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .open-sans-googlefont {
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
@@ -279,4 +282,15 @@ p {
 
 .subscription-box {
   width: 400px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-icon {
+  margin: 0 5px;
 }
