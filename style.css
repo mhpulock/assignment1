@@ -204,3 +204,37 @@ p {
   display: flex;
   justify-content: center;
 }
+
+.next-target > h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.next-target > p {
+  text-align: center;
+  opacity: 0.7;
+  padding: 0 100px;
+  margin-bottom: 30px;
+}
+
+.next-target-carts {
+  display: flex;
+  border: 1px solid rgba(124, 123, 123, 0.274);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.next-target-carts img {
+  width: 100px;
+}
+.next-target-cart {
+  padding: 0 30px;
+}
+
+.next-target-cart > p {
+  text-align: start;
+  font-size: 14px;
+  opacity: 0.7;
+  margin: 8px 0 15px 0;
+}
