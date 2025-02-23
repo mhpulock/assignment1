@@ -238,3 +238,45 @@ p {
   opacity: 0.7;
   margin: 8px 0 15px 0;
 }
+
+.subscription {
+  background-image: linear-gradient(
+      180deg,
+      rgb(9, 9, 9) 3.482%,
+      rgba(16, 16, 16, 0) 101.632%
+    ),
+    url(assets/handshake.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+}
+
+.subscription-title {
+  color: white;
+  text-align: center;
+}
+
+.subscription-description {
+  margin-top: 15px;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.subscription-input {
+  display: flex;
+  justify-content: center;
+}
+
+.subscription-button {
+  padding: 10px 20px;
+  margin: 50px 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.subscription-box {
+  width: 400px;
+}
