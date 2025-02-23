@@ -43,6 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .banner-title {
@@ -80,4 +81,48 @@
   color: white;
   font-weight: 600;
   border: none;
+}
+
+.main-container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+main section {
+  margin-bottom: 100px;
+}
+
+.why-webdev {
+  padding: 80px;
+  background-color: #dee0fd46;
+}
+
+.why-webdev-title {
+  text-align: center;
+}
+
+.why-webdev-description {
+  text-align: center;
+  padding: 0 70px;
+  margin: 20px 0;
+}
+
+.explain-webdev {
+  display: flex;
+  background-color: white;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.webdev-explain-tile {
+  margin-bottom: 15px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.webdev-explain-description {
+  opacity: 0.7;
+  margin-bottom: 20px;
 }
